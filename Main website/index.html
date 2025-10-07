@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Grids</title>
+  <style>
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <div class="container my-5">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <img src="https://picsum.photos/id/233/600/400" alt="Main image" class="img-fluid">
+        </div>
+        <div class="col-md-5">
+          <h2>Tagline</h2>
+          <p class="mt-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur nostrum, libero laboriosam recusandae
+            aperiam velit, perspiciatis molestias nisi quam officiis at placeat qui? Blanditiis impedit molestiae
+            architecto cupiditate beatae! Maxime!
+          </p>
+          <button type="button" class="btn btn-primary mt-3">Call to action</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gray Section -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col">
+          <div class="bg-secondary text-white mt-3 py-4 card text-center">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, blanditiis aperiam. Porro iste, debitis ad
+              totam earum deleniti ratione sapiente magni fugiat rerum veniam? Corporis quod eos nisi quam laboriosam?
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card Section -->
+    <div class="container my-5">
+      <div class="card-group">
+        <div class="card mx-1 border border-1 border-secondary rounded-1">
+          <img src="https://picsum.photos/id/230/600/400" class="card-img-top" alt="Card image 1">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mx-1 border border-1 border-secondary rounded-1">
+          <img src="https://picsum.photos/id/231/600/400" class="card-img-top" alt="Card image 2">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mx-1 border border-1 border-secondary rounded-1">
+          <img src="https://picsum.photos/id/232/600/400" class="card-img-top" alt="Card image 3">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show equal height action.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <div class="text-center">
+              <button type="button" class="btn btn-primary">More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container my-5">
+      <h3 class="text-center mb-4">Contact Us</h3>
+      <form>
+        <div class="mb-3 row">
+          <label for="inputName" class="col-sm-2 col-form-label">Full Name</label>
+          <div class="col-sm-10">
+            <input type="text" id="inputName" class="form-control" placeholder="Enter your full name">
+          </div>
+        </div>
+
+        <div class="mb-3 row">
+          <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" id="inputEmail" class="form-control" placeholder="Enter your email">
+          </div>
+        </div>
+
+        <div class="mb-3 row">
+          <label for="inputMessage" class="col-sm-2 col-form-label">Message</label>
+          <div class="col-sm-10">
+            <textarea class="form-control" id="inputMessage" rows="3" placeholder="Write your message"></textarea>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

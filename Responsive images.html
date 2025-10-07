@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Images</title>
+  <!-- Use Bootstrap 5 only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container my-5">
+
+  <!-- Responsive image inside a container -->
+  <div style="width: 40%; border: 5px red solid;">
+    <img src="./images/green tech.jpg" class="img-fluid" alt="Green Tech" style="height: 500px; width: 100%;">
+  </div>
+
+  <!-- Thumbnail image -->
+  <h1 class="my-5">Thumbnail</h1>
+  <img src="./images/green tech.jpg" alt="Green Tech" class="img-thumbnail" style="width: 400px;">
+
+  <!-- Aligning images -->
+  <h1 class="my-5">Aligning images</h1>
+  <img src="./images/hands-unrecognizable-female-doctor-typing-keyboard-office.jpg" 
+       class="rounded float-start me-3" 
+       alt="Doctor typing" 
+       style="width: 250px; height: auto;">
+       
+  <img src="./images/hands-unrecognizable-female-doctor-typing-keyboard-office.jpg" 
+       class="rounded float-end ms-3" 
+       alt="Doctor typing" 
+       style="width: 250px; height: auto;">
+
+  <!-- Clear floats -->
+  <div class="clearfix"></div>
+</div>
+
+<!-- Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
